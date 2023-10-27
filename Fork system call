@@ -1,0 +1,19 @@
+## function 
+System call, fork, is used to create child processes.
+which is simply a duplicate of the parent with some expectations however
+
+## Return value
+pid of child in parent
+0 in the child
+ -1 if unsuccessful
+
+## parameters
+it does not take any parameters
+
+## Basic operation
+After a new child process is created, both processes will execute the next instruction following the fork() system call
+
+## syntax 
+fork()
+
+## header file <unistd.h>
